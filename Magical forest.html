@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Magical Forest</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel = "stylesheet" href = "Magical forest.css">
+    
+
+</head>
+
+
+
+<body>
+    <div class="intro">
+        <h3>
+            You are stranded in the magical forest and all you have is a compass. But the trees can tell you the direction of your escape based
+            on your x and y coordinate within the forest. The trees uses the formula <i><strong>Z = 5x + 3y</strong></i> 
+            to tell you which direction to take. Escape the forest and you will be able to deafeat the Zotexs!
+            <br> 
+            Look at the following code below and choose the correct answer. 
+        </h3>
+
+    </div>
+   
+    <div class="code">
+        <pre>
+            <code>
+import java.util.Scanner;
+    public class Forest{
+        public static void main(String[] args) {
+
+        Scanner scnr = new Scanner(System.in);
+
+         int x;
+
+         int y;
+         
+         System.out.println("Enter a range of postive numbers: ");
+
+         System.out.println("First Number: ");
+
+         x = scnr.nextInt();
+
+         System.out.println("Last Number: ");
+
+         y = scnr.nextInt();
+         
+         while(x > 0 && y > 0 && x < y){
+
+             System.out.print("Zotexs numbers are: ");
+
+             for(int i = x; i <= y; i++){
+
+                 if(i % 3.5 == 0){
+
+                     System.out.println(i + " ");
+                 }
+             }
+             break;
+             
+         }
+         
+         if(x < 0 || y < 0 || y < x || x > y){
+             
+             System.out.println("Invalid Input");
+         }
+         
+        }
+    }
+        </code>
+        </pre>
+    
+    </div>
+
+    <div style="position: relative;left: 100px;" class="p">
+        
+        If the user puts these three inputs:
+        </br>
+        </br>
+        i) 7 and 8
+        </br>
+        ii) 2 and 10
+        </br>
+        iii) 11 and 7
+        </br>
+        </br>
+        What would be the output?
+        <br>
+        <br>
+    
+</div>
+
+
+<div style="position: relative; left: 100px;" class="o1">
+    A)
+    </br>
+    &nbsp;&nbsp;i) Walk North<br>
+    &nbsp;&nbsp;ii) Invalid input <br>
+    &nbsp;&nbsp;iii) Invalid input <br>
+</div>
+
+<div style="position: relative; left: 400px; position:relative; bottom: 90px;" class="o2">
+    B)
+    </br>
+    &nbsp;&nbsp;i) Walk West <br>
+    &nbsp;&nbsp;ii) Walk East<br>
+    &nbsp;&nbsp;iii) Invalid input <br>
+</div>
+
+<div style="position: relative; left: 750px; position: relative; bottom: 177px;" class="o3">
+    C)
+    </br>
+    &nbsp;&nbsp;i) Walk West <br>
+    &nbsp;&nbsp;ii) Walk North <br>
+    &nbsp;&nbsp;iii) Walk East <br>
+</div>
+
+<div style="position: relative; left: 1100px; position: relative; bottom: 265px" class="o4">
+    D)
+    </br>
+    &nbsp;&nbsp;i) Walk South <br>
+    &nbsp;&nbsp;ii) Invalid input <br>
+    &nbsp;&nbsp;iii) Walk West <br>
+</div>
+
+<div style="position: relative; left: 100px; position: relative; bottom: 200px;" class="answer">
+    <i><u>Choose the correct answer:</u></i>
+</div>
+
+<div style="position: relative; left: 100px; position: relative; bottom: 100px;" class="a1">
+    <a href="Incorrect Page.html">A</a>
+</div>
+
+<div style="position: relative; left: 400px; position: relative; bottom: 177px;" class="a2">
+    <a href="Magical Lake.html">B</a>
+</div>
+
+<div style="position: relative; left: 750px; position: relative; bottom: 253px;" class="a3">
+    <a href="Incorrect Page.html">C</a>
+</div>
+
+<div style="position: relative; left: 1100px; position: relative; bottom: 328px;" class="a4">
+    <a href="Incorrect Page.html">D</a>
+</div>
+
+
+
+
+</body>
+
+
+
+
+
+</html>

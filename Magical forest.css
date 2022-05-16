@@ -1,0 +1,169 @@
+body{
+    background-image: url("Magical forest.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+   
+    
+}
+
+.code{
+    color: white;
+    background:rgba(0, 0, 0,0.5)
+   
+    
+}
+
+h3{
+    font-family: 'Orbitron', sans-serif;
+    color:chartreuse;
+    
+}
+
+.p{
+    font-size: large;
+    font-family: 'Orbitron', sans-serif;
+    color: aqua;
+    
+
+}
+
+
+.o1{
+    font-size: large;
+    font-family: 'Orbitron', sans-serif;
+    color: aqua;
+   
+}
+.o2{
+    font-size: large;
+    font-family: 'Orbitron', sans-serif;
+    color: aqua;
+   
+
+}
+.o3{
+    font-size: large;
+    font-family: 'Orbitron', sans-serif;
+    color: aqua;
+  
+}
+
+.o4{
+    font-size: large;
+    font-family: 'Orbitron', sans-serif;
+    color: aqua;
+    
+}
+
+.answer{
+    font-size: x-large;
+    font-family: 'Orbitron', sans-serif;
+    color: aqua;
+    
+}
+
+.a1 a{
+    background:rgba(0, 0, 0,0.5);
+    color:aliceblue;
+    border: 3px solid aqua;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: x-large;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.a1 a:hover{
+    color:aqua;
+    text-decoration: none;
+}
+
+.a1 a:active{
+    color:pink;
+    text-decoration: none;
+}
+
+.a1 a:visited{
+    text-decoration: none;
+}
+
+.a2 a{
+    background:rgba(0, 0, 0,0.5);
+    color:aliceblue;
+    border: 3px solid aqua;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: x-large;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.a2 a:hover{
+    color:aqua;
+    text-decoration: none;
+}
+
+.a2 a:active{
+    color:pink;
+    text-decoration: none;
+}
+
+.a2 a:visited{
+    text-decoration: none;
+}
+
+.a3 a{
+    background:rgba(0, 0, 0,0.5);
+    color:aliceblue;
+    border: 3px solid aqua;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: x-large;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.a3 a:hover{
+    color:aqua;
+    text-decoration: none;
+}
+
+.a3 a:active{
+    color:pink;
+    text-decoration: none;
+}
+
+.a3 a:visited{
+    text-decoration: none;
+}
+
+.a4 a{
+    background:rgba(0, 0, 0,0.5);
+    color:aliceblue;
+    border: 3px solid aqua;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: x-large;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.a4 a:hover{
+    color:aqua;
+    text-decoration: none;
+}
+
+.a4 a:active{
+    color:pink;
+    text-decoration: none;
+}
+
+.a4 a:visited{
+    text-decoration: none;
+}

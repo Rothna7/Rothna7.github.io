@@ -1,0 +1,115 @@
+body{
+    background-image: url("Planet Ky1816 background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+h1{
+    color:aliceblue;
+    font-size: 280%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+p{
+    color:aliceblue;
+    font-family: 'Orbitron', sans-serif;
+    font-size:larger;
+
+}
+
+h3{
+    color:aliceblue;
+    font-family: 'Orbitron', sans-serif;
+    font-size:x-large;
+    font-style:oblique;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.image1{
+    width: 35%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+    border: 5px solid white;
+    padding: 0%;
+    font-size:xx-large;
+   
+}
+
+.image2{
+    width: 30%;
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+    outline: 5px solid white;
+}
+
+.caption1{
+    font-style: italic;
+    font-size:x-large;
+    color:white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.link1 a {
+    font-family:'Orbitron', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: x-large; 
+}
+
+.link1 a:hover {
+
+    font-family:'Orbitron', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: x-large; 
+}
+
+.link1 a:active {
+    font-family:'Orbitron', sans-serif;
+    color: aqua;
+    text-align: center;
+    font-size: x-large; 
+}
+
+.link2 a {
+    font-family:'Orbitron', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: x-large; 
+}
+
+.link2 a:hover {
+
+    font-family:'Orbitron', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: x-large; 
+}
+
+.link2 a:active {
+    font-family:'Orbitron', sans-serif;
+    color: aqua;
+    text-align: center;
+    font-size: x-large; 
+}
+
+.Forest1 a{
+    font-family:'Orbitron', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: x-large;
+}
+
+.Forest1 a:hover{
+    font-family:'Orbitron', sans-serif;
+    color:aqua;
+    text-align: center;
+    font-size: x-large;
+}

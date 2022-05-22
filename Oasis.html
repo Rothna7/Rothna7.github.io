@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Oasis</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    
+        <link rel = "stylesheet" href = "oasis.css">
+    
+        
+    </head>
+    
+
+    <body>
+        <h3>
+            Congratulations! You have successfully acquired food now you will proceed to the oasis for getting water.
+            Locals ask you to state how many containers of water you carry  and what percentage of it is filled.
+        </h3>
+
+        <div class="code">
+            <pre>
+                <code>
+                import java.util.Scanner ;
+     
+      public class oasis {
+        
+        public static void main(String args[]) {
+
+            Scanner scnr = new Scanner(System.in) 
+              int numContainer = scnr.nextInt();
+              
+              int[] container = new int[numContainer] ;
+              int water=0;
+
+              for (int i=0 ; i< container.length;++1){
+                
+                System.out.println("Enter percentage of container filled") ;
+                container[i] = scnr.nextInt();
+
+              }
+              for (int i = 0; i < container.length; ++i) {
+                  water+=container[i];
+              }
+              
+             int waterReq = numContainer*100 - water ;
+              System.out.println("Water required: "+ waterReq);
+            }
+        }
+
+              
+
+    </code>
+  </pre>
+</div>
+        
+        
+
+        <div style="position: relative;left: 100px;" class="p">
+        
+            If the user puts these  inputs:
+            </br>
+              5
+            </br>
+            40,50,35,90,0
+            
+            </br>
+            </br>
+            What would be the output?
+            <br>
+            <br>
+        
+    </div>
+
+    <div style="position: relative; left: 20px;" class="o1">
+        A)
+        </br>
+        &nbsp;&nbsp;error <br>
+       
+    </div>
+    <br>
+</br>
+    <div style="position: relative; left: 380px; position:relative; bottom: 80px;" class="o2">
+        B)
+        </br>
+        &nbsp;&nbsp; 215 <br>
+      
+    </div>
+    <br>
+</br>
+    <div style="position: relative; left: 700px; position: relative; bottom: 160px;" class="o3">
+        C)
+        </br>
+        &nbsp;&nbsp;285 <br>
+        
+    </div>
+    <br>
+</br>
+    <div style="position: relative; left: 1050px; position: relative; bottom: 240px" class="o4">
+        D)
+        </br>
+        &nbsp;&nbsp;500<br>
+        
+    </div>
+    
+    <div style="position: relative; left: 50px; position: relative; bottom: 200px;" class="answer">
+        <i><u>Choose the correct answer:</u></i>
+    </div>
+    
+    <div style="position: relative; left: 100px; position: relative; bottom: 100px;" class="a1">
+        <a href="Incorrect desert.html">A</a>
+    </div>
+    
+    <div style="position: relative; left: 400px; position: relative; bottom: 177px;" class="a2">
+        <a href="incorrect desert.html">B</a>
+    </div>
+    
+    <div style="position: relative; left: 750px; position: relative; bottom: 253px;" class="a3">
+        <a href="Congratulations Page.html">C</a>
+    </div>
+    
+    <div style="position: relative; left: 1100px; position: relative; bottom: 328px;" class="a4">
+        <a href="incorrect desert.html">D</a>
+    </div>
+    
+
+
+
+        
+    </body>
+</html>

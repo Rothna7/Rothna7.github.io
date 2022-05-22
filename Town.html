@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Town</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel = "stylesheet" href = "Town.css">
+    
+
+</head>
+
+
+
+<body>
+    <div class="intro">
+        <h3>
+            The locals offer to take you to the town they live at if you can fit in their vehicle. It is only possible to go to the town via their vehicle  
+            due to the harsh conditions of the planet. You need to provide them with body measurements;  <i><strong>Height and weight</strong></i> 
+            to allow them to calculate your <i><strong> weight and volume </strong></i>  
+            Look at the following code below and choose the correct answer. 
+        </h3>
+
+    </div>
+   
+    <div class="code">
+        <pre>
+            <code>
+                import java.util.Scanner;
+    public class town {
+        public static void main(String args[]) {
+                
+            Scanner scnr = new Scanner(System.in)
+                int mass ;
+                double height;
+                double weight; 
+                double volume; 
+
+                System.out.println("Enter Height in metres:  ");
+                height = scnr.nextDouble();
+         
+                       System.out.println("Enter Mass in Kg:  ");
+                       mass = scnr.nextInt();
+                    
+                           weight = mass *8.06;
+
+                           volume = weight*height;
+                
+                   
+
+                     System.out.println("Volume: "+ volume+ "Kg");
+
+                     if (volume<2000) {
+                         System.out.println("Accepted");
+
+                     }
+                     else { 
+                         System.out.println("Reject");
+                     }
+            }
+        
+        }
+    
+                
+            </code>
+        </pre>
+    
+    </div>
+
+    
+    <div style="position: relative;left: 100px;" class="p">
+        
+        If the user puts these three inputs:
+        </br>
+        </br>
+        1.81
+        </br>
+        79
+        </br>
+        
+        What would be the output?
+        <br>
+        <br>
+    
+</div>
+
+<div style="position: relative; left: 20px;" class="o1">
+    A)
+    </br>
+    &nbsp;&nbsp; 1152<br>
+    &nbsp;&nbsp; Accepted  <br>
+    
+</div>
+<br>
+<div style="position: relative; left: 380px; position:relative; bottom: 80px;" class="o2">
+    B)
+    </br>
+    &nbsp;&nbsp;1152.50 <br>
+    &nbsp;&nbsp;Rejected <br>
+   
+</div>
+<br>
+<div style="position: relative; left: 700px; position: relative; bottom: 160px;" class="o3">
+    C)
+    </br>
+    &nbsp;&nbsp;1152.50 <br>
+    &nbsp;&nbsp;Accepted <br>
+    
+</div>
+<br>
+<div style="position: relative; left: 1050px; position: relative; bottom: 240px" class="o4">
+    D)
+    </br>
+    &nbsp;&nbsp;1152.50 Accepted  <br>
+    
+    
+</div>
+
+<div style="position: relative; left: 50px; position: relative; bottom: 200px;" class="answer">
+    <i><u>Choose the correct answer:</u></i>
+</div>
+
+<div style="position: relative; left: 100px; position: relative; bottom: 100px;" class="a1">
+    <a href="Incorrect desert.html">A</a>
+</div>
+
+<div style="position: relative; left: 400px; position: relative; bottom: 177px;" class="a2">
+    <a href="Incorrect desert.html">B</a>
+</div>
+
+<div style="position: relative; left: 750px; position: relative; bottom: 253px;" class="a3">
+    <a href="Incorrect desert.html">C</a>
+</div>
+
+<div style="position: relative; left: 1100px; position: relative; bottom: 328px;" class="a4">
+    <a href="PlanetA923.html">D</a>
+</div>
+
+</body>
+</html>
